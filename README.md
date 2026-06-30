@@ -171,6 +171,15 @@ Includes:
 - Delivery performance varies across vehicles and operational regions.
 
 ---
+# Semi-Urban areas show the highest average delivery time.
+
+However,
+
+this category contains a much smaller number of orders compared to Urban and Metropolitan regions.
+
+Further operational investigation is recommended before making large-scale resource allocation decisions.
+
+---
 
 # 💡 Business Recommendations
 
