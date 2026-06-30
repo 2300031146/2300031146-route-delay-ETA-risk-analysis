@@ -35,6 +35,8 @@ These two definitions anchor every KPI and chart in this project. They are state
 
 **High Performer vs. Average Performer** — Delivery agents with an average rating ≥ 4.5 are classified as **High Performers**; all others are **Average Performers**. This threshold sits at the top of the rating distribution and isolates a genuinely differentiated group rather than splitting the dataset roughly in half.
 
+---
+
 ## 📂 Project Workflow
 ## 🗄️ SQL Data Validation & Cleaning
 
@@ -49,6 +51,7 @@ The dataset was validated and cleaned using MySQL before visualization.
 - Validated `Delivery_Time` — confirmed 0 rows with values ≤ 0
 - **Flagged but not silently altered:** `Agent_Age` contains values as low as 15, which falls outside a plausible licensed-delivery-driver range. This is disclosed here as a data integrity issue for the source system owner to investigate rather than corrected, since the right resolution (drop, cap, or verify against source) depends on information not available in this dataset.
 - Prepared clean, analysis-ready dataset for Power BI
+- ---
 
 ## 📊 Dashboard Overview
 
