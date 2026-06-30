@@ -87,6 +87,13 @@ Key Findings · Business Recommendations · Expected Business Impact · Executiv
 
 **4. Semi-Urban: Investigate Before Acting** — Rather than reallocate resources to Semi-Urban based on 152 orders, extend data collection for one additional reporting cycle to confirm whether the elevated average reflects a genuine operational gap or a small-sample artifact.
 
+**Semi-Urban areas show the highest Delay Time Lost (mins).
+However,
+this category contains a much smaller number of orders compared to Urban and Metropolitan regions.
+Further operational investigation is recommended before making large-scale resource allocation decisions.
+
+----
+
 ## 📈 Expected Business Impact
 
 - Reduce delivery delays, prioritized by traffic-driven interventions first
