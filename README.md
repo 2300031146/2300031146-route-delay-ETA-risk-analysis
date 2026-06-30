@@ -2,6 +2,8 @@
 
 An end-to-end Data Analytics project analyzing logistics delivery performance to identify route delays, evaluate ETA (Estimated Time of Arrival) risk, and improve operational efficiency through SQL, DAX, and Power BI dashboards.
 
+---
+
 ## 📖 Project Overview
 
 Timely deliveries are critical for logistics operations and customer satisfaction. Delays caused by traffic, weather, workforce performance, and geographic factors can negatively impact delivery efficiency.
@@ -9,6 +11,8 @@ Timely deliveries are critical for logistics operations and customer satisfactio
 This project analyzes 43,739 delivery records to identify the major drivers of delay, monitor ETA risk, evaluate delivery agent performance, and provide actionable, evidence-backed business recommendations through interactive Power BI dashboards.
 
 The project follows a complete analytics workflow — from SQL-based data validation and cleaning to KPI design, DAX measure creation, dashboard development, and business insight generation.
+
+---
 
 ## 🎯 Business Objectives
 
@@ -20,12 +24,16 @@ The project follows a complete analytics workflow — from SQL-based data valida
 - Monitor logistics KPIs using interactive dashboards
 - Provide business recommendations backed by measurable evidence, not assumption
 
+- ---
+
 ## 🛠️ Technologies Used
 
 - **MySQL** – Data import, validation, and cleaning
 - **Microsoft Power BI** – Dashboard development and visualization
 - **DAX** – Calculated columns and KPI measures
 - **CSV Dataset** – Source data (Amazon Delivery dataset, 43,739 records, 16 columns)
+
+- ---
 
 ## 📐 Key Definitions
 
@@ -69,6 +77,8 @@ The dataset was validated and cleaned using MySQL before visualization.
 ### 💼 Dashboard 4 – Business Recommendations & Impact
 Key Findings · Business Recommendations · Expected Business Impact · Executive Summary
 
+---
+
 ## 🔍 Key Business Insights
 
 - **Traffic congestion is the largest single driver of delay.** Average delivery time rises from 101 minutes (Low traffic) to 148 minutes (Jam) — a 47% increase.
@@ -76,6 +86,8 @@ Key Findings · Business Recommendations · Expected Business Impact · Executiv
 - **Area-level delay required a sample-size check before being trusted.** An initial cut showed Semi-Urban deliveries averaging 238 minutes, nearly double every other area. Investigating further showed Semi-Urban represents only 152 of 43,739 orders (0.3% of the dataset), versus 32,698 for Metropolitan (75%). Given this imbalance, the Semi-Urban average is not treated as a reliable basis for a resourcing decision. Instead: Metropolitan drives the largest absolute volume of delayed orders due to scale, while Urban and Other perform best on a per-order basis (104–109 minutes). Semi-Urban is flagged for further data collection, not acted on.
 - **High-performing agents (rating ≥ 4.5) show measurably lower delay rates** than Average Performers across traffic and weather conditions, indicating the effect isn't just easier routes being assigned to top agents.
 - **46.96% of deliveries are classified as delayed** under the dataset-baseline threshold defined above.
+
+- -----
 
 ## 💡 Business Recommendations
 
@@ -102,6 +114,8 @@ Further operational investigation is recommended before making large-scale resou
 - Avoid resourcing decisions based on statistically unreliable segments
 - Enable data-driven logistics planning grounded in disclosed, defensible methodology
 
+- ----
+
 ## 📁 Repository Structure
 Route-Delay-ETA-Risk-Analytics/
 │
@@ -117,9 +131,13 @@ Route-Delay-ETA-Risk-Analytics/
 │   └── Presentation.pdf
 └── README.md
 
+----
+
 ## ⚠️ Limitations
 
 This analysis is based on a single historical dataset snapshot, not a live feed. Geographic coordinates (latitude/longitude) were available but not yet used to compute delivery distance — see Future Enhancements. The Delayed/On-Time threshold is derived from the dataset's own statistical baseline in the absence of a published SLA; if a formal SLA exists, the analysis should be re-run against that value instead.
+
+---
 
 ## 🚀 Future Enhancements
 
@@ -130,6 +148,8 @@ This analysis is based on a single historical dataset snapshot, not a live feed.
 - Automated delay-risk alerting system
 - Expanded Semi-Urban sample to validate the area effect flagged above
 - Cloud-based dashboard deployment
+
+- ----
 
 ## 👨‍💻 Author
 
