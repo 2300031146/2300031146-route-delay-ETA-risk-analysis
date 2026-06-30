@@ -171,7 +171,7 @@ Includes:
 - Delivery performance varies across vehicles and operational regions.
 
 ---
-# Semi-Urban areas show the highest average delivery time.
+# Semi-Urban areas show the highest Delay Time Lost (mins).
 
 However,
 
